@@ -1,0 +1,196 @@
+/* カラーの変数宣言 */
+:root{
+  --font-color: #515151;
+  --design-color: #6cc6c4;
+  --main-padding: 30px 30px 30px 30px;
+   --background-image: linear-gradient(
+    rgb(156, 227, 225) 0%,
+    rgb(108, 198, 196) 100%
+  );
+  --baseColor: #6cc6c4;
+}
+
+/* homeHTMLのデザイン */
+main{
+  position: relative;
+}
+
+.designHome{
+  margin-top: 10px;
+  width: 650px;
+ position: relative;
+  left: 270px;
+  background-color: white;
+}
+
+.maintame{
+  margin-top: 10px;
+}
+.secondtitle{
+  padding-left: 20px;
+  border-bottom: solid 2px #6cc6c4;  
+}
+.news{
+  text-align: left;
+}
+
+dt{
+  line-height: 350%;
+  font-size: 80%;
+  width: 200px;
+}
+dd{
+  margin: 0;
+}
+
+.news1{
+  display: flex;
+  padding-bottom: 5px;
+  border-bottom: dotted 1px ;
+}
+.news2{
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: dotted 1px;
+}
+.news3{
+  display: flex;
+  border-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: dotted 1px;
+}
+.news4{
+  display: flex;
+  border-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: dotted 1px;
+} 
+.news5{
+  display: flex;
+  padding-bottom: 5px;
+  border-top: 5px;
+  border-bottom: dotted 1px;
+  align-items: center;
+}
+
+
+/* __________________________________________ */
+
+/* よく使うもの */
+
+.main_container{
+  width: auto;
+  height: auto;
+  /* margin: 30px 30px 30px 30px; */
+}
+
+.main_title h2{
+
+  height: 100px;
+  line-height: 100px;
+  padding-left: 15px;
+  border-radius: 6px 6px 0 0 ;
+  background-image: var(--background-image);
+ 
+  color: white;
+}
+
+.main_Home{
+  padding: 0px 30px 30px 30px;
+}
+
+.subtitle h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: block;
+  border-bottom: solid 2px rgb(108, 198, 196);
+  font-weight: 600;
+  color: var(--font-color);
+}
+
+h4{
+  color: var(--design-color);
+}
+
+.main_Home p{
+  margin-bottom: 20px;
+  font-size: 80%;
+}
+/* ______________________________________________ */
+
+
+/* クリニックHTML */
+
+.clinic_lecture table{
+  width: 100%;
+  height: 140px;
+  color: var(--font-color);
+  font-size: 80%;
+  font-weight: 500;
+}
+.clinic_lecture table tbody th  {
+  
+  border: 1px solid var(--font-color);
+}
+
+
+/* 診療案内HTML */
+/* なし */
+
+/* 院長・スタッフ紹介HTML */
+.clinic_staff_boss{
+  display: flex;
+}
+.clinic_staff_boss_image p{
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: var(--baseColor);
+  
+}
+.clinic_staff_boss_spend{
+  margin-left: 30px;
+}
+.clinic_staff_boss_spend h4{
+  margin-top: 10px;
+}
+.clinic_staff_boss_spend p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.clinic_staffIntroduce img{
+  margin-bottom: 20px;
+}
+.clinic_staffIntroduce p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* アクセスHTML */
+
+
+.cilinc_access_map a{
+  font-size: 80%;
+  
+}
+.cilinc_access_map{
+  margin-bottom: 20px;
+}
+
+.clinic_address{
+  border-top: solid 2px var(--baseColor);
+  padding-top: 20px;
+  display: flex;
+  
+}
+.clinic_address_detile{
+  margin-left: 20px;
+}
+
+#target{
+  width: 590px;
+  height: 300px;
+}

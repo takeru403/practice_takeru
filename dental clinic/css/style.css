@@ -1,0 +1,274 @@
+.global_header_wrapper {
+  margin: 0 auto 20px;
+}
+
+.global_header {
+  height: 200px;
+  position: relative;
+  display: block;
+}
+
+.global_header_iamge {
+  display: block;
+  position: absolute;
+  top: 30px;
+}
+
+.global_header_support {
+  display: block;
+  float: right;
+}
+
+.global_header_support .subtitle {
+  font-size: 4px;
+  position: relative;
+  top: 30px;
+}
+
+.global_header_support .subtitle p {
+  margin: 0;
+}
+
+.global_header_support .address {
+  position: relative;
+  top: 30px;
+}
+
+.global_header_support .address p {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.global_header_support .address .reserve {
+  display: inline-block;
+  font-size: 30%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: solid 1px #d6d6d6;
+}
+
+.global_header_support .address .reserve span {
+  color: red;
+}
+
+.global_header .global_nav {
+  border-radius: 6px;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9ce3e1), to(#6cc6c4));
+  background-image: linear-gradient(#9ce3e1 0%, #6cc6c4 100%);
+}
+
+.global_header .global_nav ul {
+  border-radius: 6px;
+  margin: 0;
+  padding: 0;
+  display: table;
+  list-style: none;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.global_header .global_nav ul li {
+  display: table-cell;
+  border-right: solid 3px #a9d8ce;
+  vertical-align: middle;
+}
+
+.global_header .global_nav ul li:hover {
+  opacity: 0.5;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.global_header .global_nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.global_header .global_nav ul a .langJa {
+  display: block;
+  text-shadow: 1px 1px 2px #6cc6c4;
+  font-weight: bold;
+  font-size: 108%;
+}
+
+.global_header .global_nav ul a .langEn {
+  text-align: center;
+  font-size: 77%;
+  font-weight: bold;
+  display: block;
+}
+
+.container {
+  max-width: 920px;
+  height: auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+main aside {
+  position: absolute;
+  top: 0;
+}
+
+main aside .up {
+  position: absolute;
+  border: solid 1px #6cc6c4;
+  border-radius: 6px;
+  width: 250px;
+  height: 230px;
+}
+
+main aside .up h2 {
+  margin: 0;
+  display: block;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9ce3e1), to(#6cc6c4));
+  background-image: linear-gradient(#9ce3e1 0%, #6cc6c4 100%);
+  color: white;
+}
+
+main aside .up ul {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: square;
+  padding: 0;
+  text-align: center;
+  list-style-image: url("img/dental clinic1.png");
+}
+
+main aside .up ul li {
+  display: block;
+  line-height: 230%;
+  border-bottom: solid 1px #6cc6c4;
+  margin-right: 10px;
+  margin-left: 10px;
+  list-style: circle;
+}
+
+main aside .up ul li a:hover {
+  color: yellowgreen;
+}
+
+main aside .up ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+main aside .down {
+  top: 280px;
+  position: absolute;
+  border: solid 1px #6cc6c4;
+  border-radius: 6px;
+  width: 250px;
+  height: 230px;
+}
+
+main aside .down h2 {
+  margin: 0;
+  display: block;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9ce3e1), to(#6cc6c4));
+  background-image: linear-gradient(#9ce3e1 0%, #6cc6c4 100%);
+  color: white;
+}
+
+main aside .down ul {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: square;
+  padding: 0;
+  text-align: center;
+}
+
+main aside .down ul li {
+  display: block;
+  line-height: 230%;
+  border-bottom: solid 1px #6cc6c4;
+  margin-right: 10px;
+  margin-left: 10px;
+  list-style: circle;
+}
+
+main aside .down ul li a:hover {
+  color: yellowgreen;
+}
+
+main aside .down ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer nav ul {
+  height: 30px;
+  width: 100%;
+  font-size: 80%;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9ce3e1), to(#6cc6c4));
+  background-image: linear-gradient(#9ce3e1 0%, #6cc6c4 100%);
+  border-radius: 6px;
+}
+
+footer nav ul li {
+  color: white;
+  list-style: square;
+  margin-right: 35px;
+}
+
+footer nav ul li a:hover {
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer address {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer address p {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-size: 80%;
+}
+
+footer .foot {
+  font-size: 80%;
+  padding: 0;
+  border-top: solid 2px #6cc6c4;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
